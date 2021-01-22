@@ -38,11 +38,9 @@ class Work extends React.Component {
         <Row>
           <Col xs={12}>
             <h4 className="underlined text-center">MY WORK</h4>
-	    {
 	      <VerticalTimeline className="mt-5">
                 {this.props.info.work.map(verticalTimelineElement)}
               </VerticalTimeline>
-	    }
           </Col>
         </Row>
       </Element>
