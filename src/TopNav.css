@@ -2,7 +2,7 @@
   --navbar-bg-color: var(--bg-color);
   --navbar-border: none;
   --navar-border-radius: 0;
-  --navbar-padding: 2rem;
+  --navbar-padding: 2.5rem 0 0 0;
 
   --navbar-link-font-size: 0.85rem;
   --navbar-link-letter-spacing: 0.12rem;

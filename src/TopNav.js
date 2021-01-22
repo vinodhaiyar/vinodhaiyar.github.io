@@ -3,9 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-scroll";
 import "./TopNav.css";
-import resume from "./docs/Vinodh_Resume.docx";
 
-const TopNav = () => (
+const TopNav = (props) => (
   <Navbar expand="lg">
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
@@ -49,7 +48,9 @@ const TopNav = () => (
         >
           CONTACT
         </Link>
-        <Nav.Link href={resume} target="_blank">RESUME</Nav.Link>
+        <Nav.Link href={props.info.resume} target="_blank">
+          RESUME
+        </Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
