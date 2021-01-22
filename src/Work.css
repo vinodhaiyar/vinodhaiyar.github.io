@@ -1,0 +1,14 @@
+.vertical-timeline::before {
+  background: var(--dodger-blue-txt-color);
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 7px solid var(--dodger-blue-txt-color) !important;
+}
+
+.vertical-timeline-element-date {
+  font-family: var(--fira-sans-font) !important;
+  font-size: 1.15rem !important;
+  font-weight: 400 !important;
+  color: var(--default-txt-color);
+}

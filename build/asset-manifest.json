@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d78088f7.chunk.css",
+    "main.js": "/static/js/main.130f64c6.chunk.js",
+    "main.js.map": "/static/js/main.130f64c6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.506796af.js",
+    "runtime-main.js.map": "/static/js/runtime-main.506796af.js.map",
+    "static/css/2.e9baad12.chunk.css": "/static/css/2.e9baad12.chunk.css",
+    "static/js/2.ca1092dd.chunk.js": "/static/js/2.ca1092dd.chunk.js",
+    "static/js/2.ca1092dd.chunk.js.map": "/static/js/2.ca1092dd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.62c9d83512ff7601adc78ced169bc2ef.js": "/precache-manifest.62c9d83512ff7601adc78ced169bc2ef.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e9baad12.chunk.css.map": "/static/css/2.e9baad12.chunk.css.map",
+    "static/css/main.d78088f7.chunk.css.map": "/static/css/main.d78088f7.chunk.css.map",
+    "static/js/2.ca1092dd.chunk.js.LICENSE.txt": "/static/js/2.ca1092dd.chunk.js.LICENSE.txt",
+    "static/media/Vinodh_Resume.docx": "/static/media/Vinodh_Resume.dbb24f7e.docx",
+    "static/media/avatar.jpg": "/static/media/avatar.13dfda05.jpg",
+    "static/media/gmr.png": "/static/media/gmr.5f366745.png",
+    "static/media/grt.png": "/static/media/grt.e6c9686d.png",
+    "static/media/indospace.png": "/static/media/indospace.60f7ff05.png",
+    "static/media/srei.png": "/static/media/srei.2c3d3705.png",
+    "static/media/sricity.png": "/static/media/sricity.76804141.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.506796af.js",
+    "static/css/2.e9baad12.chunk.css",
+    "static/js/2.ca1092dd.chunk.js",
+    "static/css/main.d78088f7.chunk.css",
+    "static/js/main.130f64c6.chunk.js"
+  ]
+}

@@ -1,0 +1,19 @@
+div[name="footer"] {
+  background-color: #f2f2f2;
+  margin: -100px -15px;
+  padding: 20px auto !important;
+}
+
+i.fa {
+  background-color: var(--dodger-blue-txt-color);
+  padding: 15px;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 10rem;
+}
+
+i.fa:focus,
+i.fa:active,
+i.fa:hover {
+  background-color: var(--default-txt-color);
+}

@@ -1,0 +1,97 @@
+:root {
+  --bg-color: #fff;
+  --default-txt-color: #404040;
+  --dark-txt-color: #1a1a1a;
+  --light-txt-color: #666666;
+  --dodger-blue-txt-color: #0c9bef;
+
+  --montserrat-font: "Montserrat", sans-serif;
+  --fira-sans-font: "Fira Sans", sans-serif;
+  --thin-font-weight: 300;
+  --regular-font-weight: 400;
+  --bold-font-weight: 600;
+
+  --section-padding: 5rem 2.5rem;
+  --section-margin: 5rem 0 10rem 0;
+
+  --panel-body-shadow-color: var(--navbar-hover-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--montserrat-font);
+  color: var(--default-txt-color);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: var(--default-txt-color);
+  font-family: var(--fira-sans-font) !important;
+}
+
+.font-1 {
+  font-family: var(--montserrat-font) !important;
+}
+
+.font-2 {
+  font-family: var(--fira-sans-font) !important;
+}
+
+.thin {
+  font-weight: var(--thin-font-weight) !important;
+}
+
+.regular {
+  font-weight: var(--regular-font-weight);
+}
+
+.bold {
+  font-weight: var(--bold-font-weight);
+  color: var(--dodger-blue-txt-color);
+}
+
+.light {
+  color: var(--light-txt-color);
+}
+
+.default {
+  color: var(--default-txt-color);
+}
+
+.dark {
+  color: var(--dark-txt-color);
+}
+
+.text-write-up {
+  font-size: 1.33rem;
+  word-spacing: 0.1rem;
+  line-height: 2.25rem;
+}
+
+.underlined:after {
+  content: "";
+  background: var(--dark-txt-color);
+  height: 1px;
+  width: 25px;
+  display: block;
+  margin: 10px auto 50px;
+}
+
+.section {
+  display: block;
+  padding: var(--section-padding);
+  margin: var(--section-margin);
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 2rem 0;
+    margin: 2.5rem 0 5rem 0;
+  }
+}

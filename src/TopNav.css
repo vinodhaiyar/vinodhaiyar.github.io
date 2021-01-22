@@ -1,0 +1,60 @@
+:root {
+  --navbar-bg-color: var(--bg-color);
+  --navbar-border: none;
+  --navar-border-radius: 0;
+  --navbar-padding: 2rem;
+
+  --navbar-link-font-size: 0.85rem;
+  --navbar-link-letter-spacing: 0.12rem;
+
+  --navbar-link-margin: 1rem 2.5rem;
+  --navbar-link-padding: 10px 0px;
+
+  --navbar-link-height: 3px;
+  --navbar-link-underline-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.navbar {
+  background: var(--navbar-bg-color);
+  border: var(--navbar-border);
+  border-radius: var(--navar-border-radius);
+  padding: var(--navbar-padding);
+}
+
+.navbar a {
+  font-family: var(--montserrat-font);
+  font-weight: var(--bold-font-weight);
+  font-size: var(--navbar-link-font-size);
+  color: var(--default-txt-color);
+  letter-spacing: var(--navbar-link-letter-spacing);
+  margin: var(--navbar-link-margin);
+  padding: var(--navbar-link-padding);
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.navbar a:after {
+  background-color: var(--dodger-blue-txt-color);
+  bottom: 0;
+  content: "";
+  display: block;
+  height: var(--navbar-link-height);
+  left: 50%;
+  position: absolute;
+  transition: var(--navbar-link-underline-transition);
+  width: 0;
+}
+
+.navbar a:hover:after,
+a:focus:after,
+a:active:after {
+  width: 100%;
+  left: 0;
+}
+
+.navbar a:hover,
+a:focus,
+a:active {
+  color: var(--dark-txt-color);
+}
