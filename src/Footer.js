@@ -11,12 +11,12 @@ const Footer = (props) => (
           <Col xs={3}></Col>
           <Col xs={3}>
             <a href={props.info.linkedin} target="_blank">
-              <i class="fa fa-linkedin"></i>
+              <i className="fa fa-linkedin"></i>
             </a>
           </Col>
           <Col xs={3}>
             <a href={`mailto:${props.info.email}`}>
-              <i class="fa fa-envelope"></i>
+              <i className="fa fa-envelope"></i>
             </a>
           </Col>
         </Row>
