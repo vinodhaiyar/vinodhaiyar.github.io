@@ -14,7 +14,7 @@ class Work extends React.Component {
     const verticalTimelineElement = (e, i) => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-	key={i}}
+	key={i}
         contentStyle={{
           background: "white",
           color: "#606060"
