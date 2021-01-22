@@ -11,9 +11,10 @@ import "./Work.css";
 
 class Work extends React.Component {
   render() {
-    const verticalTimelineElement = (e) => (
+    const verticalTimelineElement = (e, i) => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
+	key={i}}
         contentStyle={{
           background: "white",
           color: "#606060"
@@ -37,10 +38,11 @@ class Work extends React.Component {
         <Row>
           <Col xs={12}>
             <h4 className="underlined text-center">MY WORK</h4>
-	    {/*<VerticalTimeline className="mt-5">
-              {this.props.info.work.map(verticalTimelineElement)}
-            </VerticalTimeline>
-	    */}}
+	    {
+	      <VerticalTimeline className="mt-5">
+                {this.props.info.work.map(verticalTimelineElement)}
+              </VerticalTimeline>
+	    }
           </Col>
         </Row>
       </Element>

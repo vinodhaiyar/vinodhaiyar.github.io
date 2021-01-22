@@ -13,7 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { info: {} };
+    this.state = { info: { work: [] } };
   }
 
   componentDidMount() {
