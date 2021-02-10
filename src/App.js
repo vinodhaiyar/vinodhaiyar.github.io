@@ -18,7 +18,7 @@ class App extends React.Component {
 
   componentDidMount() {
     const infoUrl =
-      "https://gist.githubusercontent.com/vinodhaiyar/c993e64587b61c8e668a710af427b90f/raw/info.json";
+      "https://gist.githubusercontent.com/vvinodhkumar/c993e64587b61c8e668a710af427b90f/raw/info.json";
     fetch(infoUrl)
       .then((response) => response.json())
       .then((info) => this.setState({ info }));
