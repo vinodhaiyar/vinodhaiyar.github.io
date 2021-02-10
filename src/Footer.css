@@ -4,7 +4,7 @@ div[name="footer"] {
   padding: 20px auto !important;
 }
 
-i.fa {
+div[name="footer"] i.fa {
   background-color: var(--dodger-blue-txt-color);
   padding: 15px;
   color: white;
@@ -12,8 +12,8 @@ i.fa {
   border-radius: 10rem;
 }
 
-i.fa:focus,
-i.fa:active,
-i.fa:hover {
+div[name="footer"] i.fa:focus,
+div[name="footer"] i.fa:active,
+div[name="footer"] i.fa:hover {
   background-color: var(--default-txt-color);
 }

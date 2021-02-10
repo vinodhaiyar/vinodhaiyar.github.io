@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import { Row, Col, Image } from "react-bootstrap";
+import { Row, Col, Image, Button } from "react-bootstrap";
 
 import "./Home.css";
 
@@ -33,6 +33,14 @@ const Home = (props) => (
         <span className="d-block mt-5 pt-3 text-write-up thin font-2 dark">
           {props.info.summary}
         </span>
+	<Row className="mt-5">
+	  <Col sm={8} md={6}>
+	    <Row>
+	     <Col><Button variant="outline-primary" href={props.info.linkedin} target="_blank" size="md"><i className="fa fa-linkedin"></i> LinkedIn</Button></Col>
+	     <Col><Button variant="outline-secondary" href={`mailto:${props.info.email}`} size="md"><i className="fa fa-envelope"></i> Email</Button></Col>
+	    </Row>
+	  </Col>
+	</Row>
       </Col>
     </Row>
   </Element>

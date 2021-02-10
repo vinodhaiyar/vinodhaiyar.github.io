@@ -58,3 +58,7 @@ a:focus,
 a:active {
   color: var(--dark-txt-color);
 }
+
+.navbar-toggler {
+  margin: 20px !important;
+}

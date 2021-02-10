@@ -6,9 +6,8 @@ import "./Footer.css";
 const Footer = (props) => (
   <Element className="section" name="footer">
     <Row>
-      <Col sm={{ span: 4, offset: 4 }}>
+      <Col sm={{ span: 4, offset: 5 }} className="text-center">
         <Row>
-          <Col xs={3}></Col>
           <Col xs={3}>
             <a href={props.info.linkedin} target="_blank">
               <i className="fa fa-linkedin"></i>
