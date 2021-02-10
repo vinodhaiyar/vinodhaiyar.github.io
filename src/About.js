@@ -5,12 +5,12 @@ import "./About.css";
 
 const About = (props) => (
   <Element className="section" name="about">
-    <h4 className="text-center light underlined">ABOUT</h4>
+    <h4 className="text-center light underlined">SKILLSET</h4>
     <Row>
       <Col xs={{ span: 10, offset: 1 }}>
-        <span className="text-write-up font-2 thin default">
-          {props.info.about}
-        </span>
+	<ul>
+	  {props.info.skillset.map((skill) => <li className="text-write-up font-2 thin default">{skill}</li>)}
+	</ul>
       </Col>
     </Row>
   </Element>
