@@ -5,7 +5,7 @@ import "./About.css";
 
 const About = (props) => (
   <Element className="section" name="about">
-    <h4 className="text-center light underlined">SKILLSET</h4>
+    <h4 className="text-center light underlined">SKILL SET</h4>
     <Row>
       <Col xs={{ span: 10, offset: 1 }}>
 	<ul>

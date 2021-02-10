@@ -26,7 +26,7 @@ const TopNav = (props) => (
           duration={250}
           delay={250}
         >
-          SKILLSET
+          SKILL SET
         </Link>
         <Link
           className="nav-link"
