@@ -9,7 +9,7 @@ const Footer = (props) => (
       <Col sm={{ span: 4, offset: 5 }} className="text-center">
         <Row>
           <Col xs={3}>
-            <a href={props.info.linkedin} target="_blank">
+            <a href={props.info.linkedin} target="_blank" rel="noreferrer noopener">
               <i className="fa fa-linkedin"></i>
             </a>
           </Col>

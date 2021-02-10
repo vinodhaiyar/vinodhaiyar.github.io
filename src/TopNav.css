@@ -46,11 +46,13 @@
   width: 0;
 }
 
-.navbar a:hover:after,
-a:focus:after,
-a:active:after {
-  width: 100%;
-  left: 0;
+@media (min-width: 768px) {
+  .navbar a:hover:after,
+  a:focus:after,
+  a:active:after {
+    width: 100%;
+    left: 0;
+  }
 }
 
 .navbar a:hover,

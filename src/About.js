@@ -9,7 +9,7 @@ const About = (props) => (
     <Row>
       <Col xs={{ span: 10, offset: 1 }}>
 	<ul>
-	  {props.info.skillset.map((skill) => <li className="text-write-up font-2 thin default">{skill}</li>)}
+	  {props.info.skillset.map((skill, i) => <li key={i} className="text-write-up font-2 thin default">{skill}</li>)}
 	</ul>
       </Col>
     </Row>

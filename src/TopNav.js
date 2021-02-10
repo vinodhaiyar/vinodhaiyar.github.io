@@ -5,16 +5,18 @@ import { Link } from "react-scroll";
 import "./TopNav.css";
 
 const TopNav = (props) => (
-  <Navbar expand="lg">
+  <Navbar expand="lg" sticky="top">
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
       <Nav>
         <Link
           className="nav-link"
           to="home"
+	  spy={true}
           smooth={true}
           duration={250}
           delay={250}
+	  offset={-100}
         >
           HOME
         </Link>
@@ -25,6 +27,7 @@ const TopNav = (props) => (
           smooth={true}
           duration={250}
           delay={250}
+	  offset={-100}
         >
           SKILL SET
         </Link>
@@ -35,6 +38,7 @@ const TopNav = (props) => (
           smooth={true}
           duration={250}
           delay={250}
+	  offset={-100}
         >
           MY WORK
         </Link>
@@ -45,6 +49,7 @@ const TopNav = (props) => (
           smooth={true}
           duration={250}
           delay={250}
+	  offset={-100}
         >
           CONTACT
         </Link>
